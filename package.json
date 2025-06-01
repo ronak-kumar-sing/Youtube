@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Create the Full working youtube",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/ronak-kumar-sing/Youtube/issues"
   },
-  "homepage": "https://github.com/ronak-kumar-sing/Youtube#readme"
+  "homepage": "https://github.com/ronak-kumar-sing/Youtube#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
 }
