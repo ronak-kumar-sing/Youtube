@@ -1,0 +1,23 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "Create the Full working youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronak-kumar-sing/Youtube.git"
+  },
+  "keywords": [
+    "javasrcipt",
+    "backend"
+  ],
+  "author": "Ronak Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronak-kumar-sing/Youtube/issues"
+  },
+  "homepage": "https://github.com/ronak-kumar-sing/Youtube#readme"
+}
